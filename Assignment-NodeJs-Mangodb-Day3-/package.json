@@ -1,0 +1,13 @@
+{
+    "name": "my-assgn-day3",
+    "version": "2.0.0",
+    "dependencies": {
+        "ejs": "^2.5.8",
+        "express": "latest",
+        "fs": "0.0.1-security",
+        "jade": "^1.11.0",
+        "mongoose": "latest",
+        "nodemon": "latest",
+        "pug": "^2.0.3"
+    }
+}

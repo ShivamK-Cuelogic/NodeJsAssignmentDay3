@@ -1,0 +1,14 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <form action="/saveInfo">
+            <label>Object_Id :</label> <input type="text" readonly=true name="txtObjId" id="txtObjId" value= <%- empDetails._id %> > <br> <br>
+            <label>Emp_ID :</label> <input type="text" name="txtEmpId" id="txtEmpId" value= <%- empDetails.emp_id %> > <br> <br>
+            <label>Name :</label> <input type="text" name="txtName" id="txtName" value=<%- empDetails.name %> ><br><br>
+            <label>Designation :</label> <input type="text" name="txtDesg" id="txtDesg" value=<%- empDetails.desg %> ><br><br>
+            <label>City :</label> <input type="text" name="txtCity" id="txtCity" value=<%- empDetails.city %> ><br><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
